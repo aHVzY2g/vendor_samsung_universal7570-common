@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter on5xelte,$(TARGET_DEVICE)),)
+ifneq ($(filter xcover4lte,$(TARGET_DEVICE)),)
 
 
 ifeq ($(WITH_EXYNOS_BSP),)
